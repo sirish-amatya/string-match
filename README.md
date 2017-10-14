@@ -9,22 +9,21 @@ This program contains a function which takes 2 parameters
 
 ```
 function string_match($word, $text)
-
 ```
 
 ### Example
 
 ```
-string_match("use", "question");
-string_match("hello", "quihlloen");
-string_match("useful", "question");
-
+string_match("use", "question"); //Match found. 1 2 3 (1 2 3 is the index where match was found)
+string_match("hello", "quihlloen"); //Match found. 3 4 5 6 7
+string_match("useful", "question"); //Not matched
 ```
 
 ### Prerequisites
 
 php-cli
 
+### Execute the program
 ```
 php string_match.php
 ```
